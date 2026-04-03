@@ -63,19 +63,22 @@ export function Navbar() {
           <Link
             className="hover:text-blue-500 flex items-center gap-2 transition-colors px-6 py-4"
             href="/"
-            onClick={() => setOpen(false)}
+            onClick={(e) => {
+              scrollTop(e)
+              setOpen(false)
+            }}
           >
             <House /> Inicio
           </Link>
         </li>
         <li>
-          <Link
+          <a
             className="hover:text-blue-500 flex items-center gap-2 transition-colors px-6 py-4"
-            href="#projects"
+            href="#projects-section"
             onClick={() => setOpen(false)}
           >
             <FolderOpen /> Proyectos
-          </Link>
+          </a>
         </li>
         <li>
           <Link

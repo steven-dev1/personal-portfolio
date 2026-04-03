@@ -23,10 +23,10 @@ export function HeroSection() {
           <p id="hero-desc" className="text-center font-medium text-zinc-600 dark:text-zinc-400 md:text-lg lg:text-xl">
             Desarrollador Web FullStack con +2 años de experiencia.
           </p>
-          <div id="hero-links" className="flex text-sm md:text-base items-center justify-center md:flex-row gap-8">
+          <div id="hero-links" className="flex text-sm md:text-base items-center justify-center md:flex-row gap-4 sm:gap-8">
             <LinksComponent link="https://github.com/steven-dev1">
               <LogoGithub className="h-6 w-6" />
-              GitHub
+              <span className="hidden sm:inline">GitHub</span>
             </LinksComponent>
             <a className="flex items-center text-sm font-medium gap-2 px-2 py-2.5 rounded-lg transition-colors bg-zinc-200 hover:bg-blue-100 dark:bg-zinc-900 dark:hover:bg-blue-950/20 hover:text-blue-500" download href="/Hoja de vida Steven Gonzalez.pdf">
               <ArrowDownToLine className="h-5 w-5" />
@@ -34,7 +34,7 @@ export function HeroSection() {
             </a>
             <LinksComponent link="https://www.linkedin.com/in/st3ven10/">
               <LogoLinkedin className="h-6 w-6" />
-              LinkedIn
+              <span className="hidden sm:inline">LinkedIn</span>
             </LinksComponent>
           </div>
         </div>
