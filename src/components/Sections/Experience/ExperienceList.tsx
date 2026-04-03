@@ -1,6 +1,6 @@
 "use client";
 import { EXPERIENCE } from "@/src/lib/experience";
-import { ScrollScaleRevealEffect } from "../UI/ScrollScaleRevealEffect";
+import { ScrollScaleRevealEffect } from "../../UI/ScrollScaleRevealEffect";
 import { ExperienceCard } from "./ExperienceCard";
 
 export function ExperienceList() {

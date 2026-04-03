@@ -1,8 +1,9 @@
 "use client";
-import { LogoLinkedin, LogoGithub } from "@gravity-ui/icons";
-import { ScrollScaleRevealEffect } from "../UI/ScrollScaleRevealEffect";
+import { LogoLinkedin, LogoGithub, ArrowDownToLine } from "@gravity-ui/icons";
+import { ScrollScaleRevealEffect } from "../../UI/ScrollScaleRevealEffect";
 import Image from "next/image";
-import { LinksComponent } from "../UI/LinksComponent";
+import { LinksComponent } from "../../UI/LinksComponent";
+import Link from "next/link";
 
 export function HeroSection() {
   return (
@@ -28,6 +29,10 @@ export function HeroSection() {
               <LogoGithub className="h-6 w-6" />
               GitHub
             </LinksComponent>
+            <a className="flex items-center text-sm font-medium gap-2 px-2 py-2.5 rounded-lg transition-colors bg-zinc-200 hover:bg-blue-100 dark:bg-zinc-900 dark:hover:bg-blue-950/20 hover:text-blue-500" download href="/Hoja de vida Steven Gonzalez.pdf">
+              <ArrowDownToLine className="h-5 w-5" />
+              Descargar CV
+            </a>
             <LinksComponent link="https://www.linkedin.com/in/st3ven10/">
               <LogoLinkedin className="h-6 w-6" />
               LinkedIn

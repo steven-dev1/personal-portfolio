@@ -7,6 +7,10 @@ import { Envelope, FolderOpen, House } from "@gravity-ui/icons";
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
+  const scrollTop = (e: React.MouseEvent) => {
+    e.preventDefault()
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
 
   return (
     <nav className="fixed z-50 inset-x-0 w-full mx-auto bg-zinc-400/20 dark:bg-zinc-900/20 backdrop-blur-lg">
@@ -19,9 +23,12 @@ export function Navbar() {
             </Link>
           </li>
           <li>
-            <Link className="hover:text-blue-500 flex items-center gap-2 transition-colors" href="#projects">
+            <a
+              className="hover:text-blue-500 flex items-center gap-2 transition-colors"
+              href="#projects-section"
+            >
               <FolderOpen /> Proyectos
-            </Link>
+            </a>
           </li>
           <li>
             <Link className="hover:text-blue-500 flex items-center gap-2 transition-colors" href="#contact">
@@ -49,7 +56,9 @@ export function Navbar() {
       </div>
 
       {/* Mobile menu */}
-      <ul className={`md:hidden ${open ? "h-auto translate-0" : "h-0 -translate-x-100"} origin-center flex transition-all flex-col`}>
+      <ul
+        className={`md:hidden ${open ? "h-auto translate-0" : "h-0 -translate-x-100"} origin-center flex transition-all flex-col`}
+      >
         <li>
           <Link
             className="hover:text-blue-500 flex items-center gap-2 transition-colors px-6 py-4"

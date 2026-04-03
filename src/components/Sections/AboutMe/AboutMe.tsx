@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { CodeIcon } from "../UI/CodeIcon";
-import { TitleSection } from "../UI/TitleSection";
-import { ScrollTranslateRevealEffect } from "../UI/ScrollTranslateRevealEffect";
-import { ScrollScaleRevealEffect } from "../UI/ScrollScaleRevealEffect";
+import { CodeIcon } from "../../UI/CodeIcon";
+import { TitleSection } from "../../UI/TitleSection";
+import { ScrollTranslateRevealEffect } from "../../UI/ScrollTranslateRevealEffect";
+import { ScrollScaleRevealEffect } from "../../UI/ScrollScaleRevealEffect";
 
 export function AboutMe() {
   return (

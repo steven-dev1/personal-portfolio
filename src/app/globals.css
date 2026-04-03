@@ -16,13 +16,11 @@
 html {
   background-color: var(--background);
   color: var(--foreground);
-  overscroll-behavior: none;
+  scroll-behavior: smooth !important;
 }
 
 body {
   position: relative;
-  overflow-x: hidden;
-  overscroll-behavior: none;
 }
 
 .dark body::before {

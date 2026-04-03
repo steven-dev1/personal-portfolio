@@ -1,5 +1,5 @@
 import { LogoGithub, LogoLinkedin } from "@gravity-ui/icons"
-import { LinksComponent } from "../UI/LinksComponent"
+import { LinksComponent } from "../../UI/LinksComponent"
 
 export function Footer() {
   return (

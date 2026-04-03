@@ -2,7 +2,7 @@ import { Project } from "@/src/lib/projects";
 import { LogoGithub, ArrowUpRightFromSquare, CircleFill } from "@gravity-ui/icons";
 import { Chip } from "@heroui/react";
 import Image from "next/image";
-import { LinksComponent } from "../UI/LinksComponent";
+import { LinksComponent } from "../../UI/LinksComponent";
 
 export function ProjectCard({ project }: { project: Project }) {
   return (

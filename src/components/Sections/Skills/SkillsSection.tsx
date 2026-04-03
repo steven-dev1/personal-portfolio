@@ -1,6 +1,6 @@
-import { TitleSection } from "../UI/TitleSection";
+import { TitleSection } from "../../UI/TitleSection";
 import { CarouselComponent } from "./CarouselComponent";
-import { CodeIcon } from "../UI/CodeIcon";
+import { CodeIcon } from "../../UI/CodeIcon";
 
 export function SkillsSection() {
   return (

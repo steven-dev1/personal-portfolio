@@ -1,6 +1,6 @@
 import { PROJECTS } from "@/src/lib/projects";
 import { ProjectCard } from "./ProjectCard";
-import { ScrollScaleRevealEffect } from "../UI/ScrollScaleRevealEffect";
+import { ScrollScaleRevealEffect } from "../../UI/ScrollScaleRevealEffect";
 
 export function ProjectsList() {
   return (

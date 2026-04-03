@@ -1,6 +1,6 @@
-import { CodeIcon } from "../UI/CodeIcon";
-import { ScrollScaleRevealEffect } from "../UI/ScrollScaleRevealEffect";
-import { TitleSection } from "../UI/TitleSection";
+import { CodeIcon } from "../../UI/CodeIcon";
+import { ScrollScaleRevealEffect } from "../../UI/ScrollScaleRevealEffect";
+import { TitleSection } from "../../UI/TitleSection";
 import { ExperienceList } from "./ExperienceList";
 
 export function ExperienceSection() {
