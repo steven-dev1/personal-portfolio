@@ -18,7 +18,7 @@ export function Navbar() {
         {/* Desktop links */}
         <ul className="hidden md:flex items-center justify-center gap-8 p-4">
           <li>
-            <Link className="hover:text-blue-500 flex items-center gap-2 transition-colors" href="/">
+            <Link onClick={(e) => scrollTop(e)} className="hover:text-blue-500 flex items-center gap-2 transition-colors" href="/">
               <House /> Inicio
             </Link>
           </li>

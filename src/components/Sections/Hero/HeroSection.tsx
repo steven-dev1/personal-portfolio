@@ -3,7 +3,6 @@ import { LogoLinkedin, LogoGithub, ArrowDownToLine } from "@gravity-ui/icons";
 import { ScrollScaleRevealEffect } from "../../UI/ScrollScaleRevealEffect";
 import Image from "next/image";
 import { LinksComponent } from "../../UI/LinksComponent";
-import Link from "next/link";
 
 export function HeroSection() {
   return (
