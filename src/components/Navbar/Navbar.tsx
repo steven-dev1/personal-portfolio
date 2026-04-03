@@ -51,7 +51,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-4 py-2">
           <ThemeToggle />
-          <LanguageToggle />
+          {/* <LanguageToggle /> */}
         </div>
       </div>
 
@@ -80,7 +80,7 @@ export function Navbar() {
             <FolderOpen /> Proyectos
           </a>
         </li>
-        <li>
+        {/* <li>
           <Link
             className="hover:text-blue-500 flex items-center gap-2 transition-colors px-6 py-4"
             href="#contact"
@@ -88,7 +88,7 @@ export function Navbar() {
           >
             <Envelope /> Contacto
           </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
